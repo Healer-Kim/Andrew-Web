@@ -3,129 +3,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap'); 
 
 body {
-    background-color: gray;   
-    width: 100%;
-    height: 100%;
+    background-color: white;   
 }
-
-html {
-    width: 100px;
-    height: 100px;
-}
-
-* {
-    margin: 0px;
-    border: 0px
-}
-
-h1 {
-    font-weight: bold;
-    color: white;
-    background-color: orange;
-    width: 1865px;
-    height: 125px;
-    text-align: center;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-/* End of Project Base Styling */
-
-/*--------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-/* Start of Searchbar Styling */
 
 .container {
-    position: absolute;
-    margin: auto;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    width: 350px;
-    height: 125px;
-}
-
-.searchbar {
-    position: absolute;
-    margin: auto;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    width: 80px;
-    height: 80px;
-    background:coral;
-    border-radius: 50%;
-    z-index: 1; /* Layer [what comes front and what lays back (Higher number means it is closer to the user with a default of 0)] */
-    box-shadow: white;
-}
-
-.searchbar:hover {   /* Hover indicates what the user is trying to interact with (i.e. highlights a link or changes the cursor) */
-    cursor: pointer;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
     background-color: white;
+    height: 700px;
+    width: 27%;
+    position: static;
+    border-style: solid;
+    border-color: orange;
 }
 
-.searchbar:before {
-    content: "";
-    position: absolute;
-    margin: auto;
-    top: 22px;
-    bottom: 0px;
-    left: 22px;
-    right: 0px;
-    width: 12px;
-    height: 2px;
-    background: white;
-    transform: rotate(45deg);
-    transition: all .3s
+#title {
+    text-align: center;
+    font-family: system-ui;
+    font-weight: 750;
+    color: orange;
 }
 
-.searchbar:after {
-    content: "";
-    position: absolute;
-    margin: auto;
-    top: -5px;
-    bottom: 0px;
-    right: 0px;
-    left: -5px;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    border: 2px solid white;
-    transition: all .3s;   
+#text {
+    text-align: center;
+    font-family: system-ui;
+    font-size: 20px;
+    color: black;
 }
 
-.input {
-    background: orange;
-    color: white;
-    text-shadow: 0px 0px 10px orange;
-    padding: 0px 80px 0px 20px;
-    font-family: "Inconsolata";
-    margin: auto;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
-    width: 50px;
-    height: 50px;
-    border: none;
-    border-radius: 30px;
-    box-shadow: 0px 0px 25px 0px, orange, 0px 20px 25px 0px;
-    outline: none;
-    transition: all 1.25s;
-    opacity: 0.1;
-    z-index: 2;
-    font-weight: bold;
+#food {
+    width: 100%;
+    height: 70%;
+    margin-top: 30px;
 }
-
-.input:hover {
-    cursor: pointer;
-}
-/* End of Searchbar Styling */
-
-/*--------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-/* Start of _______ Styling */
-
