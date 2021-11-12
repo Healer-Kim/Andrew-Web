@@ -1,0 +1,43 @@
+/* Start of Project Base Styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap'); 
+
+body {
+    background-color: white;   
+}
+
+.container {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: white;
+    height: 700px;
+    width: 27%;
+    position: static;
+    border-style: solid;
+    border-color: orange;
+}
+
+#title {
+    text-align: center;
+    font-family: system-ui;
+    font-weight: 750;
+    color: orange;
+}
+
+#text {
+    text-align: center;
+    font-family: system-ui;
+    font-size: 20px;
+    color: black;
+}
+
+#food {
+    width: 100%;
+    height: 70%;
+    margin-top: 30px;
+}
