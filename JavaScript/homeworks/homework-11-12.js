@@ -14,4 +14,4 @@ console.log(celcius); // Prints celcius
 
 console.log(fahrenheit); // Prints fahrenheit, isn't a decimal number anyway.
 
-console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`)
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`) // Prints "The temperature is TEMPERATURE degrees Fahrenheit.".
