@@ -60,40 +60,46 @@
 //     var x = new Boolean(false)
 
 
-let gainedDollar = 3;
-let lostDollar = 50;
+// let gainedDollar = 3;
+// let lostDollar = 50;
 
-gainedDollar++; // increment operator
-lostDollar--; // decrement operator
+// gainedDollar++; // increment operator
+// lostDollar--; // decrement operator
 
-console.log(gainedDollar, lostDollar); // increment/decrement results
+// console.log(gainedDollar, lostDollar); // increment/decrement results
 
-let favoriteAnimal= "Cat";
-const myMessage = 'My favorite animal: ' + favoriteAnimal ;
-console.log(myMessage);
+// let favoriteAnimal= "Cat";
+// const myMessage = 'My favorite animal: ' + favoriteAnimal ;
+// console.log(myMessage);
 
-const myPet = 'armadillo'
-console.log(`I own a pet ${myPet}.`);
-// output: I own a pet armadillo.   
+// const myPet = 'armadillo'
+// console.log(`I own a pet ${myPet}.`);
+// // output: I own a pet armadillo.   
 
 
-/*
-I have printed blah blah blah blah blah blah blah blah 
-blah blah blah blah blah blah blah blah blah blah
-*/
-const myName = 'Andrew Chang';
-const myCity = 'Chicago';
-const myFavorites = `My name is ${myName}. My favorite city is ${myCity}.`;
-console.log(myFavorites);
+// /*
+// I have printed blah blah blah blah blah blah blah blah 
+// blah blah blah blah blah blah blah blah blah blah
+// */
+// const myName = 'Andrew Chang';
+// const myCity = 'Chicago';
+// const myFavorites = `My name is ${myName}. My favorite city is ${myCity}.`;
+// console.log(myFavorites);
 
-/*
-Checking type of operators
-*/
+// /*
+// Checking type of operators
+// */
 
-const unknown1 = 'foo';
+// const unknown1 = 'foo';
 
-const unknown2 = '10';
+// const unknown2 = '10';
 
-const unknown3 = 'true';
+// const unknown3 = 'true';
 
-console.log(typeOf(unknown1));
+// console.log(typeOf(unknown1));
+
+
+
+
+
+
