@@ -14,9 +14,9 @@ if (runnerAge >= 18 && registerEarly) {
 if (runnerAge > 18 && registerEarly === true) {
     console.log(`Racer ${raceNumber} will be start racing at 9:30AM.`);
 } else if (runnerAge > 18 && registerEarly === false) {
-    console.log(`Racer ${raceNumber} will be start racing at 11:00AM.`)
+    console.log(`Racer ${raceNumber} will be start racing at 11:00AM.`);
 } else if (runnerAge < 18){
-    console.log(`Youth racer ${raceNumber} will be start racing at 12:30AM.`)
+    console.log(`Youth racer ${raceNumber} will be start racing at 12:30AM.`);
 } else {
-    console.log(`Racer ${raceNumber}, please go to the registration desk.`)
+    console.log(`Racer ${raceNumber}, please go to the registration desk.`);
 }
