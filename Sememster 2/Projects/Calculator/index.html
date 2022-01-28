@@ -1,0 +1,41 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <link rel="stylesheet" href="style.css">
+
+
+        <h1>Calculator</h1>
+
+        <h2 id = 'headOne'></h2> <br>
+        <p id = 'firstValue'>
+            Enter First Value
+        </p> <br>
+        <input type = 'number' id = 'firstValueText'>
+
+
+        <p id = 'secondValue'>
+            Enter Second Value
+        </p> <br>
+        <input type = 'number' id = 'secondValueText'> <br> <br>
+
+        <input id = "submitButton" type='button' value = 'Result' onClick = 'cacluateResult()'>
+
+        <p id = 'result'></p>
+        <script>
+            function cacluateResult() {
+                var valOne = document.getElementById('firstValueText').valueAsNumber
+                var valTwo = document.getElementById('secondValueText').valueAsNumber
+                var addition = valOne + valTwo
+                console.log(addition)
+                document.getElementById('resultValueText').innerHTML = addition
+                // alert(addition)
+            }
+        </script>
+        <p id = "resultValueText"></p>
+    </body>
+</html>

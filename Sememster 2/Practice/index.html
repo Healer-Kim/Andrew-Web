@@ -1,0 +1,47 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1 id = 'headOne'></h1>
+        <p id = 'paragraph'>Whatever text
+            <br>I am bored </p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <!-- Write Text Input-->
+        <input type = 'text' id = 'name' placeholder = 'Please submit your name'> <br>
+        <input type = "button" value="Submit" onClick = "logClick()">
+        <script>
+        console.log("Hello world")
+        
+        //Select by ID
+        document.getElementById("headOne").innerHTML = "Heading" // Just one
+
+        // Select by Tag Name
+        let tagLength = document.getElementsByTagName("p").length // Array
+        // alert(tagLength)
+
+        // Select by Query
+        let paragraphSelected = document.querySelector("#paragraph")
+        paragraphSelected.style.color = 'blue'
+
+        // Create a function that log "You clicked me!!"
+        function logClick() {
+            let message = 'Successfully submitted!'
+            let username = document.getElementById('name')
+            console.log('The username is ' + username.value)
+            alert(message)
+            console.log('You clicked me!!')
+        }
+
+        // Create an Element
+        let conclusion = document.createElement('p')
+        conclusion = document.innerHTML = "We are almost done with DOM"
+        document.body.appendChild(conclusion)
+        </script>
+    </body>
+</html>

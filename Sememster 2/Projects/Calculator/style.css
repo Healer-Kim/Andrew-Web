@@ -1,0 +1,39 @@
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h1 {
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: skyblue;
+}
+
+#resultValueText {
+    width: 200px;
+    border: 5px solid skyblue;
+    padding: 10px;
+    margin: 5px;
+}
+
+#firstValueText {
+    width: 200px;
+    border: 5px solid skyblue;
+    padding: 10px;
+    margin: 5px;
+}
+
+#secondValueText {
+    width: 200px;
+    border: 5px solid skyblue;
+    padding: 10px;
+    margin: 5px;
+}
+
+#submitButton {
+    color: white;
+    background-color:skyblue;
+    text-align: center;
+}
